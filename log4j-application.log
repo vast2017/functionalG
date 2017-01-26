@@ -1,0 +1,4 @@
+2016-12-29 18:42:59 INFO  DriverScript:53 - Hello I am inside setup method
+2017-01-18 20:04:22 INFO  DriverScript:53 - Hello I am inside setup method
+2017-01-18 20:04:30 INFO  DriverScript:60 - Hello I am inside signin method
+2017-01-18 20:04:35 INFO  DriverScript:106 - Hello I am inside login method

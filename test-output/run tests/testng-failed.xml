@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" configfailurepolicy="continue" name="Failed suite [run tests]" parallel="tests">
+  <test name="Sample Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.functional.DriverScript">
+        <methods>
+          <include name="loginUser"/>
+          <include name="cleaningUp"/>
+          <include name="setUp"/>
+          <include name="clickSignIn"/>
+        </methods>
+      </class> <!-- com.functional.DriverScript -->
+    </classes>
+  </test> <!-- Sample Test(failed) -->
+</suite> <!-- Failed suite [run tests] -->
